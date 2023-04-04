@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1e1e1e;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: "inter";
+  size: 48px;
+  font-weight: 400;
+  margin: 30px;
+  margin-top: 40px;
+  line-height: 58.09px;
+}
+
+#form {
+  display: flex;
+  gap: 25px;
+  margin: 25px;
+  flex-wrap: wrap;
+}
+
+input {
+  color: white;
+  padding: 12px;
+  width: 30%;
+  border: 1px solid white;
+}
+
+#add-btn {
+  color: black;
+  padding: 12px;
+  width: 30%;
+  border: 1px solid white;
+  margin: 25px;
+  background-color: white;
+}
+
+#add-btn:hover {
+  cursor: pointer;
+}
+
+#search-box {
+  padding: 12px;
+  margin: 25px;
+  width: 90%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  color: white;
+  height: auto;
+  min-height: 40%;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+table thead tr {
+  background-color: #111111;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+table tr td th {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+#search-btn{
+  background-color: whitesmoke;
+  padding: 3px;
+}
